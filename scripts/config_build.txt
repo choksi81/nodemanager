@@ -8,6 +8,14 @@ DEPENDENCIES/affix/*
 DEPENDENCIES/affix/components/*
 DEPENDENCIES/common/*
 
+# These are for the `repyV1` sandbox directory, inside of which the 
+# nodemanager will run scripts that have been uploaded to vessels.
+DEPENDENCIES/repy_v1/* repyV1
+./servicelogger.py repyV1
+DEPENDENCIES/portability/* repyV1
+DEPENDENCIES/seattlelib_v1/* repyV1
+
+
 # These are for the `repyV2` sandbox directory, inside of which the 
 # nodemanager will run scripts that have been uploaded to vessels.
 DEPENDENCIES/repy_v2/* repyV2
